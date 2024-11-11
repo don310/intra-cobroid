@@ -73,7 +73,7 @@ function NextPart() {
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(7)}
         >
-          7. Form Validation
+          7. Form Elements
         </a>
         <a
           href="/html/8"
@@ -82,7 +82,7 @@ function NextPart() {
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(8)}
         >
-          8. Web Storage
+          8. List & Table Elements
         </a>
         <a
           href="/html/9"
@@ -91,7 +91,7 @@ function NextPart() {
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(9)}
         >
-          9. Accessibilty
+          9. IDs & Classes
         </a>
       </div>
     </div>

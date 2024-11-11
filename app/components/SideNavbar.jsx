@@ -61,7 +61,8 @@ function SideNavbar() {
                             duration-300
                             ease-in-out
                             group
-                            ${path.startsWith(item.path) ? 'bg-teal-700 bg-opacity-50' : ''}
+                            icon: Code2
+                            ${path.startsWith(item.path) ? 'bg-teal-700 text-3xl font-bolder tracking-wider bg-opacity-50' : ''}
                             `}>
                             <item.icon size='24' className='group-hover:animate-bounce text-primary' />
                             <span className="dark:text-white">{item.name}</span>

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         <div className="p-5 text-center">
-            <p>© Created by <a href="https://ahmadammar.vercel.app" target="blank" className="text-primary">IntraCobroid</a> 2024</p>
+            <p>© Created by <a href="" target="blank" className="text-primary">IntraCobroid</a> 2024</p>
         </div>
     </div>
   )

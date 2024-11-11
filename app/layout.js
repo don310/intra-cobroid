@@ -8,8 +8,8 @@ import { Toaster } from '@/components/ui/toaster';
 
 
 export const metadata = {
-  title: 'Webcademy - Platform Belajar Online',
-  description: 'Webcademy - Platform Belajar Online',
+  title: 'IntraCobroid - Online Learning Platform',
+  description: 'IntraCobroid - Online Learning Platform',
 };
 
 export default function RootLayout({ children }) {

@@ -4,27 +4,27 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">7. Form Validation</h2>
-      <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
+      <h2 className="text-[20px] font-semibold">7. Form Elements</h2>
+      <h2 className="text-gray-400 text-[14px] mb-3">Deepak Suyal</h2>
       {/* Video */}
       <Video />
 
-      {/* Deskripsi */}
-      <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
+      {/* Description */}
+      <h2 className="mt-5 text-[20px] font-semibold">About this Video</h2>
       <p className="text-[14px] mt-5 italic">
-      Video ini menyajikan konsep dan teknik dasar untuk validasi formulir di HTML5. Anda akan mempelajari cara menggunakan atribut dan elemen HTML5, seperti required, pattern, dan input types, untuk menerapkan validasi langsung di sisi klien. Kami juga akan menjelaskan penggunaan JavaScript untuk validasi formulir yang lebih kompleks dan interaktif. Dengan memahami validasi formulir di HTML5, Anda dapat meningkatkan pengalaman pengguna dengan memastikan data yang dikirimkan ke server adalah valid dan sesuai dengan persyaratan yang ditetapkan.
-      </p>
+      In this video, we explore HTML5 form elements and their role in creating interactive and user-friendly web forms. You’ll learn about input types like text, email, password, and more, along with how to effectively use the `form`, `label`, and `fieldset` elements. Additionally, the video demonstrates how to implement built-in validation using HTML attributes such as `required`, `minlength`, and `pattern`, ensuring users provide accurate and valid data before submission.
+    </p>
       <h2 className="mt-5 text-[20px] font-semibold">
-        Sumber Video :{" "}
+        Video Source:{" "}
         <a
-          href="https://www.youtube.com/watch?v=qfn67VjdgZE&list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7&index=7"
+          href="https://youtu.be/llmmmE6ZqFk?si=3es4UuRMdrI-uGus&index=7"
           target="blank"
           className="
         text-blue-500
         hover:underline
         "
         >
-          Klik Disini
+          Click Here
         </a>
       </h2>
     </div>

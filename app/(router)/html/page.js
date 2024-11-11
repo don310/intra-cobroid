@@ -4,57 +4,57 @@ import Image from "next/image";
 const HTMLData = [
   {
     image: "/assets/html/1.png",
-    title: "Apa itu HTML5 ?",
+    title: "What is HTML5 ?",
     part: "Part 1",
     link: "/html/1"
   },
   {
     image: "/assets/html/2.png",
-    title: "Apa itu Semantic HTML5 ?",
+    title: "What is Semantic HTML5 ?",
     part: "Part 2",
-    link: "./css"
+    link: "/html/2"
   },
   {
     image: "/assets/html/3.png",
     title: "Image Elements",
     part: "Part 3",
-    link: "./javascript"
+    link: "/html/3"
   },
   {
     image: "/assets/html/4.png",
-    title: "Audio dan Video",
+    title: "Audio and Video",
     part: "Part 4",
-    link: "./tailwind"
+    link: "/html/4"
   },
   {
     image: "/assets/html/5.png",
     title: "Canvas",
     part: "Part 5",
-    link: "./tailwind"
+    link: "/html/5"
   },
   {
     image: "/assets/html/6.png",
     title: "SVG",
     part: "Part 6",
-    link: "./tailwind"
+    link: "/html/6"
   },
   {
     image: "/assets/html/7.png",
     title: "Form Validation",
     part: "Part 7",
-    link: "./tailwind"
+    link: "/html/7"
   },
   {
     image: "/assets/html/8.png",
     title: "Web Storage",
     part: "Part 8",
-    link: "./tailwind"
+    link: "/html/7"
   },
   {
     image: "/assets/html/9.png",
     title: "Accessibility",
     part: "Part 9",
-    link: "./tailwind"
+    link: "/html/9"
   }
 ];
 

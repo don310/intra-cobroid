@@ -4,27 +4,31 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">9. Accessibility</h2>
-      <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
+      <h2 className="text-[20px] font-semibold">9. IDs & Classes</h2>
+      <h2 className="text-gray-400 text-[14px] mb-3">Deepak Suyal</h2>
       {/* Video */}
       <Video />
 
-      {/* Deskripsi */}
-      <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
+      {/* Description */}
+      <h2 className="mt-5 text-[20px] font-semibold">About this Video</h2>
       <p className="text-[14px] mt-5 italic">
-      Video ini memberikan pemahaman dasar tentang pentingnya aksesibilitas web dalam HTML5. Anda akan belajar tentang prinsip-prinsip aksesibilitas dan praktik terbaik untuk membuat konten web yang dapat diakses dengan mudah oleh semua orang, termasuk mereka yang memiliki disabilitas. Kami akan mengeksplorasi penggunaan elemen HTML5, atribut, dan teknik styling untuk meningkatkan aksesibilitas, serta memberikan wawasan tentang alat bantu teknologi yang digunakan oleh pengguna dengan disabilitas. Dengan memahami aksesibilitas di HTML5, Anda dapat menciptakan pengalaman web yang inklusif dan dapat dijangkau oleh semua orang.
-      </p>
+      This video explains the concept of IDs and Classes in HTML and CSS, two fundamental tools used to style and target elements on a webpage. You'll learn the differences between IDs, which are used to uniquely identify a single HTML element, and Classes, which allow you to target multiple elements with the same style. By understanding how to use IDs and Classes effectively, you'll be able to organize and structure your web pages in a way that makes styling and scripting more efficient and maintainable.
+    </p>
+
+    <p className="text-[14px] mt-5 italic">
+      IDs are best used for unique elements like headers, while Classes are more versatile and used for groups of elements that share the same styling, like buttons or text blocks. The video also covers best practices for using these attributes in web development, helping you write cleaner and more modular code.
+    </p>
       <h2 className="mt-5 text-[20px] font-semibold">
-        Sumber Video :{" "}
+        Video Source:{" "}
         <a
-          href="https://www.youtube.com/watch?v=qfn67VjdgZE&list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7&index=9"
+          href="https://youtu.be/ijxoiPpSmf4?si=DKpbuEwJtvC5sxwm&index=9"
           target="blank"
           className="
         text-blue-500
         hover:underline
         "
         >
-          Klik Disini
+          Click Here
         </a>
       </h2>
     </div>

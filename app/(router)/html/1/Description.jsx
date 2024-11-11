@@ -17,7 +17,7 @@ function Description() {
       <h2 className="mt-5 text-[20px] font-semibold">
         Video Source:{" "}
         <a
-          href="https://www.youtube.com/watch?v=Q2VqCG13ejA&list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7"
+          href="https://youtu.be/7pgbqLHfkNo?si=ZJTJPobiCHIWAVZn&index=1"
           target="blank"
           className="text-blue-500 hover:underline"
         >

@@ -7,7 +7,7 @@ function Video() {
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/9g1Zz83FXyc?si=IVV6oWHy6dFKHfSa"
+        src="https://www.youtube.com/embed/XmAAv5I9Qr8?si=iUleZyBHmUxm3HEe"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen

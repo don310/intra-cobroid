@@ -14,15 +14,15 @@ function NextPart() {
       <h2 className="text-[20px] font-bold">Learn HTML5</h2>
       <div className="flex flex-col gap-5 mt-5">
         {[
-          { page: 1, title: "What is HTML5?", href: "/html/1" },
-          { page: 2, title: "What is Semantic HTML5?", href: "/html/2" },
+          { page: 1, title: "What is HTML5 ?", href: "/html/1" },
+          { page: 2, title: "What is Semantic HTML5 ?", href: "/html/2" },
           { page: 3, title: "Images Elements", href: "/html/3" },
           { page: 4, title: "Audio and Video", href: "/html/4" },
           { page: 5, title: "Canvas", href: "/html/5" },
           { page: 6, title: "SVG", href: "/html/6" },
           { page: 7, title: "Form Validation", href: "/html/7" },
-          { page: 8, title: "Web Storage", href: "/html/8" },
-          { page: 9, title: "Accessibility", href: "/html/9" },
+          { page: 8, title: "List & Table Elements", href: "/html/8" },
+          { page: 9, title: "IDs & Classes", href: "/html/9" },
         ].map(({ page, title, href }) => (
           <a
             key={page}

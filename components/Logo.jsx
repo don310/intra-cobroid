@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { FaCode } from 'react-icons/fa';
 
 function Logo() {
   return (
-    <div className="flex p-2 items-center justify-center">
-        <a href="/" className="text-primary text-2xl uppercase font-bold">
-            INTRA COBROID
-        </a>
+    <div className="flex items-center justify-center p-2">
+      <FaCode className="text-3xl text-primary mr-2" /> 
+      <a href="/" className="text-2xl font-bold tracking-wider text-primary">
+        IntraCobroid
+      </a>
     </div>
-  )
+  );
 }
 
-export default Logo
+export default Logo;
