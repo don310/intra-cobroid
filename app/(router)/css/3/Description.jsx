@@ -4,32 +4,28 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">3. Opacity</h2>
+      {/* Title */}
+      <h2 className="text-[20px] font-semibold">2. Fonts & Font Properties</h2>
       <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
+
       {/* Video */}
       <Video />
 
-      {/* Deskripsi */}
-      <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
+      {/* Description Section */}
+      <h2 className="mt-5 text-[20px] font-semibold">About This Video</h2>
       <p className="text-[14px] mt-5 italic">
-        Dalam video ini, Anda akan diajarkan konsep opacity di CSS3, yang
-        memungkinkan Anda untuk mengontrol tingkat ketransparanan elemen-elemen
-        web Anda. Anda akan belajar cara menggunakan properti opacity untuk
-        membuat elemen-elemen menjadi lebih transparan, sehingga memberikan efek
-        visual menarik seperti overlay, efek fade-in dan fade-out, serta
-        blending yang halus antara elemen-elemen yang tumpang tindih.
+        This video introduces you to the CSS3 border-radius property, which enables you to design the corners of web elements more creatively. You will learn the basic concepts of the border-radius property and how to use it to create rounded or curved corsners for your web elements.
       </p>
+
+      {/* Source Section */}
       <h2 className="mt-5 text-[20px] font-semibold">
-        Sumber Video :{" "}
+        Video Source:{" "}
         <a
-          href="https://www.youtube.com/watch?v=i9uw6ajdNwI&list=PLFIM0718LjIVCmrSWbZPKCccCkfFw-Naa&index=3"
+          href="https://www.youtube.com/watch?v=3xbW5YHln78&list=PLFIM0718LjIVCmrSWbZPKCccCkfFw-Naa&index=2"
           target="blank"
-          className="
-        text-blue-500
-        hover:underline
-        "
+          className="text-blue-500 hover:underline"
         >
-          Klik Disini
+          Click Here
         </a>
       </h2>
     </div>

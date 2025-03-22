@@ -14,24 +14,6 @@ const courseItemCardData = [
     author: "Deepak Suyal",
     link: "./css"
   },
-  {
-    image: "/html/banner-javascript.png",
-    title: "Learn Javascript",
-    author: "Deepak Suyal",
-    link: "./javascript"
-  },
-  {
-    image: "/html/banner-tailwind.png",
-    title: "Learn Tailwind CSS",
-    author: "Deepak Suyal",
-    link: "./tailwind"
-  },
-  {
-    image: "/html/react.png",
-    title: "Learn React",
-    author: "Deepak Suyal",
-    link: "./react"
-  },
 ];
 
 const CourseItemCard = ({ image, title, author, link }) => {

@@ -5,15 +5,15 @@ import Link from 'next/link';
 
 // Tutorial data
 const tutorials = [
-  { id: "tutorials/python", name: "Python Tutorial", image: "/pic/python.png" },
-  { id: "cnotes", name: "C Tutorial", image: "/pic/c.png" },
-  { id: "cpp", name: "C++ Tutorial", image: "/pic/c++.png" },
-  { id: "javaNotes", name: "Java Tutorial", image: "/pic/java.jfif" },
-  { id: "html", name: "HTML Tutorial", image: "/pic/html.png" },
-  { id: "cssNotes", name: "CSS Tutorial", image: "/pic/css.png" },
-  { id: "jsNotes", name: "JavaScript Tutorial", image: "/pic/js.png" },
-  { id: "php", name: "PHP Tutorial", image: "/pic/php.png" },
-  { id: "reactjs", name: "React JS Tutorial", image: "/pic/react.png" },
+  { id: "tutorials/html-home", name: "HTML", image: "/pic/html.png" },
+    { id: "tutorials/css-home", name: "CSS", image: "/pic/css.png" },
+    { id: "tutorials/js-home", name: "JavaScript", image: "/pic/js.png" },
+    { id: "tutorials/python", name: "Python", image: "/pic/python.png" },
+    { id: "tutorials/c", name: "C", image: "/pic/c.png" },
+    { id: "tutorials/cpp", name: "C++", image: "/pic/c++.png" },
+    { id: "tutorials/java", name: "Java", image: "/pic/java.jfif" },
+    { id: "tutorials/php", name: "PHP", image: "/pic/php.png" },
+    { id: "tutorials/reactjs", name: "React JS", image: "/pic/react.png" },
 ];
 
 const SecondaryNavbar = () => {

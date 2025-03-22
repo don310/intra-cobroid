@@ -6,7 +6,6 @@ import { dark } from '@clerk/themes';
 import { Toaster } from '@/components/ui/toaster';
 
 
-
 export const metadata = {
   title: 'IntraCobroid - Online Learning Platform',
   description: 'IntraCobroid - Online Learning Platform',

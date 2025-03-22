@@ -23,8 +23,8 @@ function Contact() {
         </div>
 
         {/* Main Content with Top Margin to Avoid Overlap with Header */}
-        <div className="pt-20 flex-1 p-8">
-          <div className="bg-white shadow-md rounded-lg p-6 mb-8">
+        <div className="ptbg-white shadow--20 flex-1 p-8">
+          <div className="md rounded-lg p-6 mb-8">
             <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
             <p className="mb-6">
             📩 Reach out to us through the contact form below, or connect with us on social media 🌐

@@ -11,7 +11,7 @@ function NextPart() {
 
   return (
     <div className="p-5 text-center rounded-sm bg-white dark:bg-slate-900">
-      <h2 className="text-[20px] font-bold">Belajar CSS3</h2>
+      <h2 className="text-[20px] font-bold">Learning CSS</h2>
       <div className="flex flex-col gap-5 mt-5">
         <a
           href="/css/1"
@@ -29,7 +29,7 @@ function NextPart() {
           } hover:shadow-md dark:hover:shadow-md dark:hover:shadow-primary transition duration-300 ease-in-out`}
           onClick={() => handleClick(2)}
         >
-          2. Border Radius
+          2. Inline, Internal & External CSS
         </a>
         <a
           href="/css/3"

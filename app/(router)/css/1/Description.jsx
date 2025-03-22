@@ -4,32 +4,27 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">1. Intro</h2>
-      <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
+      <h2 className="text-[20px] font-semibold">1. Introduction</h2>
+      <h2 className="text-gray-400 text-[14px] mb-3">Deepak Suyal</h2>
       {/* Video */}
       <Video />
 
-      {/* Deskripsi */}
-      <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
+      {/* Description */}
+      <h2 className="mt-5 text-[20px] font-semibold">About This Video</h2>
       <p className="text-[14px] mt-5 italic">
-        Dalam video ini, Anda akan mempelajari dasar-dasar CSS3, yaitu salah
-        satu bahasa pemrograman yang digunakan untuk mengatur tampilan dan
-        format desain pada halaman web. Mulai dari konsep dasar hingga
-        fitur-fitur terbaru, Anda akan dipandu melalui penjelasan yang jelas dan
-        contoh praktis untuk mengembangkan pemahaman tentang cara menggunakan
-        CSS3 untuk menciptakan desain web yang menarik dan responsif.
+        In this video, you will learn the basics of CSS3, CSS, one of the programming languages
+        used to style and format the design of web pages. From basic concepts to the latest features,
+        you will be guided through clear explanations and practical examples to develop an understanding
+        of how to use CSS3 to create attractive and responsive web designs.
       </p>
       <h2 className="mt-5 text-[20px] font-semibold">
-        Sumber Video :{" "}
+        Video Source:{" "}
         <a
-          href="https://www.youtube.com/watch?v=Q2VqCG13ejA&list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7"
+          href="https://www.youtube.com/watch?v=24yxDULSUlo&index=1"
           target="blank"
-          className="
-        text-blue-500
-        hover:underline
-        "
+          className="text-blue-500 hover:underline"
         >
-          Klik Disini
+          Click Here
         </a>
       </h2>
     </div>

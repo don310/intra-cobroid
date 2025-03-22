@@ -4,31 +4,28 @@ import Video from "./Video";
 function Description() {
   return (
     <div>
-      <h2 className="text-[20px] font-semibold">2. Border Radius</h2>
-      <h2 className="text-gray-400 text-[14px] mb-3">Sandhika Galih</h2>
+      {/* Title */}
+      <h2 className="text-[20px] font-semibold">2. Inline, Internal & External CSS</h2>
+      <h2 className="text-gray-400 text-[14px] mb-3">Deepak Suyal</h2>
+
       {/* Video */}
       <Video />
 
-      {/* Deskripsi */}
-      <h2 className="mt-5 text-[20px] font-semibold">Tentang Video ini</h2>
+      {/* Description Section */}
+      <h2 className="mt-5 text-[20px] font-semibold">About This Video</h2>
       <p className="text-[14px] mt-5 italic">
-        Video ini akan memperkenalkan Anda pada properti border radius di CSS3,
-        yang memungkinkan Anda untuk membentuk sudut-sudut elemen web dengan
-        lebih kreatif. Anda akan mempelajari konsep dasar border radius serta
-        cara menggunakannya untuk membuat elemen-elemen web Anda memiliki
-        sudut-sudut melengkung atau bulat.
+        In this video, you'll learn about the three ways to apply CSS styles to a web page: Inline CSS, Internal CSS, and External CSS. Each method will be explained with examples, showcasing their advantages and use cases. By the end of the video, you'll have a clear understanding of how to style your HTML elements effectively and the scenarios in which each method is most suitable.
       </p>
+
+      {/* Source Section */}
       <h2 className="mt-5 text-[20px] font-semibold">
-        Sumber Video :{" "}
+        Video Source:{" "}
         <a
-          href="https://www.youtube.com/watch?v=3xbW5YHln78&list=PLFIM0718LjIVCmrSWbZPKCccCkfFw-Naa&index=2"
+          href="https://www.youtube.com/watch?v=Obe-ZEh2btk&index=2"
           target="blank"
-          className="
-        text-blue-500
-        hover:underline
-        "
+          className="text-blue-500 hover:underline"
         >
-          Klik Disini
+          Click Here
         </a>
       </h2>
     </div>
