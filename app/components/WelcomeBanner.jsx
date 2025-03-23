@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-"use server";
-
->>>>>>> 8657132 (first commit)
 import React from "react";
 import { currentUser } from "@clerk/nextjs";
 

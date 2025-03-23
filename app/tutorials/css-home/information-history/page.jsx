@@ -7,10 +7,7 @@ import SideNavbar from '@/app/components/cssSideNav';
 import Footer from '@/app/components/Footer';
 import { usePathname } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
-<<<<<<< HEAD
 import remarkGfm from 'remark-gfm';
-=======
->>>>>>> 8657132 (first commit)
 import rehypePrism from 'rehype-prism-plus';
 import { useRouter } from 'next/navigation';
 
