@@ -3,7 +3,11 @@
 import { useState, useEffect } from "react";
 import Link from "next/link"; // Import Link from next/link
 import { ModeToggle } from "@/components/ui/toggle";
+<<<<<<< HEAD
 import SideNavbar from "./SideNavbar";
+=======
+import SideNavbar from "./sideNavbar";
+>>>>>>> 8657132 (first commit)
 import { UserButton } from "@clerk/nextjs";
 
 function Header() {
