@@ -1,4 +1,10 @@
-function Page({ params }) {
-    // direct access of `params.id`.
-    return <p>ID: {params.id}</p>
-  }
+export default function BlogPostPage({ params }) {
+  const { id } = params;
+
+  return (
+    <div>
+      <h1>Blog: {id}</h1>
+      {/* Render your blog content here */}
+    </div>
+  );
+}
