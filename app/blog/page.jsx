@@ -3,11 +3,7 @@
 import React from "react";
 import Link from "next/link"; // Import Link for navigation
 import Header from "@/app/components/Header";
-<<<<<<< HEAD
 import SideNavbar from "@/app/components/SideNavbar";
-=======
-import SideNavbar from "@/app/components/sideNavbar";
->>>>>>> 8657132 (first commit)
 import Footer from "@/app/components/Footer";
 
 function Blog() {

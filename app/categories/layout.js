@@ -1,9 +1,5 @@
 import React from 'react'
-<<<<<<< HEAD
 import SideNavbar from '../components/SideNavbar'
-=======
-import SideNavbar from '../components/sideNavbar'
->>>>>>> 8657132 (first commit)
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
