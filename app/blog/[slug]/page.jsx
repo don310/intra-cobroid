@@ -4,8 +4,8 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Header from "../components/Header";
-import SideNavbar from "../components/SideNavbar";
-import Footer from "../components/Footer";
+import SideNavbar from "../../components/SideNavbar";
+import Footer from "../../components/Footer";
 
 // Blog posts data with markdown content
 const blogPosts = {

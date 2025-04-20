@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link"; // Import Link from next/link
-import { ModeToggle } from "@/components/ui/toggle";
+import { ModeToggle } from "../../components/ui/toggle";
 import SideNavbar from "./SideNavbar";
 import { UserButton } from "@clerk/nextjs";
 
