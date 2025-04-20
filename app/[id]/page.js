@@ -1,10 +1,16 @@
-export default function BlogPostPage({ params }) {
-  const { id } = params;
+import blogPosts from "@/app/data/blogPosts"; 
+
+export default function BlogPost({ params }) {
+  const post = blogPosts[params.id];
+
+  if (!post) {
+    return <h1>Post Not Found</h1>;
+  }
 
   return (
-    <div>
-      <h1>Blog: {id}</h1>
-      {/* Render your blog content here */}
+    <div className="p-8">
+      <h1 className="text-3xl font-bold">{post.title}</h1>
+      <p>{post.content}</p>
     </div>
   );
 }
