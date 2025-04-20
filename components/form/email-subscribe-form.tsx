@@ -4,9 +4,9 @@ import { FormEvent, useState, useTransition } from "react";
 import { toast } from "sonner";
 
 import { subscribeNewsletters } from "../../lib/db/action/email-subscribers";
-import { Button } from "../../components/ui/button";
-import { Input } from "../../components/ui/input";
-import { Icons } from "../../components/icons";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Icons } from "@/components/icons";
 
 export function EmailSubscribeForm() {
   const [email, setEmail] = useState("");
