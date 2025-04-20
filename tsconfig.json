@@ -19,7 +19,8 @@
     "baseUrl": ".", // Base URL for relative imports
     "paths": {
       "@/*": ["./src/*"],
-      "@/app/*": ["./app/*"]
+      "@/app/*": ["./app/*"],
+      "@components/*": ["components/*"]
     },
     "target": "ES2017",
     "plugins": [

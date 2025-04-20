@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Code2, Monitor, Laptop, BarChart, Search, Shield, Layout } from 'lucide-react'; // Import additional icons
-import Logo from '@/components/Logo';
+import Logo from '../../components/Logo';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 

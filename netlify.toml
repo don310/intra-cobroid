@@ -4,3 +4,12 @@
 
 [build.environment]
   NODE_VERSION = "18"
+
+
+[build]
+  command = "make build"
+  publish = "out"
+  environment = { GO_VERSION = "1.19" }
+
+[context.production.environment]
+  GO_VERSION = "1.19"

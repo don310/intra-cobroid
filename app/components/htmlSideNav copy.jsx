@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Code2 } from 'lucide-react';
-import Logo from '@/components/Logo';
+import Logo from '../../components/Logo';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 

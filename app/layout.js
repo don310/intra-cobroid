@@ -1,9 +1,9 @@
 import React from 'react';
-import { ThemeProvider } from '@/components/ThemeProvider';
+import { ThemeProvider } from '../components/ThemeProvider';
 import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
-import { Toaster } from '@/components/ui/toaster';
+import { Toaster } from '../components/ui/toaster';
 
 
 export const metadata = {

@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import Header from "@/app/components/Header";
 import SideNavbar from "@/app/components/SideNavbar";
 import Footer from "@/app/components/Footer";
+import { notFound } from "next/navigation"; 
 
 // Blog posts data with markdown content
 const blogPosts = {
@@ -162,13 +163,14 @@ Decorators are commonly used for logging, enforcing access control, and tracking
   },
 };
 
-// BlogPost component
-export default function BlogPost({ params }) {
-  const post = blogPosts[params.slug];
 
-  if (!post) {
-    notFound(); // If no post found, return 404
-  }
+  export default function BlogPost({ params }) {
+    const { slug } = params;
+    const post = blogPosts[slug];
+  
+    if (!post) {
+      notFound();
+    }  
 
   return (
     <div className="relative min-h-screen bg-gray-100 flex">

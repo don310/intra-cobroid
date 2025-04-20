@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { ModeToggle } from "@/app/components/ui/toggle";
+import { ModeToggle } from "../../components/ui/toggle";
+
 import {
   FaCode,
   FaFacebookF,
