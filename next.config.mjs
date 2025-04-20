@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true, // Enables React Strict Mode for development
+
+  // This will enable static export mode
+  output: 'export',
+
   async headers() {
     return [
       {
