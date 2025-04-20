@@ -1,13 +1,18 @@
+# netlify.toml
+
 [build]
-  command = "npm run build"
-  publish = "out"
+  command = "npm run build"  # Build command
+  publish = "out"            # Folder to publish (can be ".next" for Next.js projects)
 
 [build.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "16"        # Specify the Node.js version if needed
 
 [plugins]
   [[plugins]]
-  package = "@netlify/plugin-nextjs"
+    package = "@netlify/plugin-nextjs"  # Plugin to support Next.js
+
+  [[plugins]]
+    package = "@netlify/plugin-lighthouse"  # Plugin for Lighthouse
 
 [build.processing]
-  cache = true
+  cache = true  # Enable caching to improve build times
