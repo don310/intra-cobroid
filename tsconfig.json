@@ -16,26 +16,24 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl": ".", // Base URL for relative imports
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ] // Corrected path for components
+    },
+    "target": "ES2017",
     "plugins": [
       {
         "name": "next"
-        
       }
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"],  
-      "@lib/*": ["./lib/*"], 
-      "@components/*": ["./components/*"] 
-    },
-    "target": "ES2017"
+    ]
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "components/icons.jsx"
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"

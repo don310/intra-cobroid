@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Header from "@/app/components/Header";
-import SideNavbar from "@/app/components/SideNavbar";
-import Footer from "@/app/components/Footer";
+import Header from "@components/Header";  // Corrected import path
+import SideNavbar from "@components/SideNavbar";
+import Footer from "@components/Footer";
 import { MdEmail } from "react-icons/md";
 import { AiOutlineInstagram, AiFillLinkedin, AiFillGithub, AiFillYoutube } from "react-icons/ai";
 
