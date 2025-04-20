@@ -1,5 +1,5 @@
 [build]
-  command = "make build"           # Choose either "npm run build" or "make build"
+  command = "npm run build && npm run export"
   publish = "out"
 
 [build.environment]
