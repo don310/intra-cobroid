@@ -18,9 +18,8 @@
     "jsx": "preserve",
     "baseUrl": ".", // Base URL for relative imports
     "paths": {
-      "@/*": [
-        "./src/*"
-      ] // Corrected path for components
+      "@/*": ["./src/*"],
+      "@/app/*": ["./app/*"]
     },
     "target": "ES2017",
     "plugins": [
